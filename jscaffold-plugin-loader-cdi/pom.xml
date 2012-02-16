@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.commonjava.js</groupId>
+    <artifactId>jscaffold</artifactId>
+    <version>0.1-SNAPSHOT</version>
+  </parent>
+  
+  <artifactId>jscaffold-plugin-loader-cdi</artifactId>
+  <name>JScaffold :: CDI Plugin Loader</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.commonjava.js</groupId>
+      <artifactId>jscaffold-plugin-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>javax.enterprise</groupId>
+      <artifactId>cdi-api</artifactId>
+      <version>1.0-SP4</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.resteasy</groupId>
+      <artifactId>jaxrs-api</artifactId>
+      <version>2.2.0.GA</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.commonjava.web</groupId>
+      <artifactId>json-serialization</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.commonjava.web</groupId>
+      <artifactId>json-test-harness</artifactId>
+    </dependency>
+  </dependencies>
+</project>
